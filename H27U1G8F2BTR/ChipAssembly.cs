@@ -72,7 +72,7 @@ namespace H27U1G8F2BTR
             myChip.registers.Add(
                 "Id Register").
                 Size(4).
-                Operations("ReadId_90h").               
+                Operations("ReadId_90h");              
                 //Interpretation(ID_interpreting);          // From here
 
             #endregion
